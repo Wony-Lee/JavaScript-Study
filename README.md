@@ -1,6 +1,6 @@
 ### 자바스크립트
 
-[Js Notion Link](https://www.notion.so/Javascript-b783c214a3ad468a9e57b2d94ff4520bv)
+[Js Notion Link](https://www.notion.so/Javascript-b783c214a3ad468a9e57b2d94ff4520b)
 
 ```
 자바스크립트 기초부분 부터 복습할겸 해서 정리해놓음.     
