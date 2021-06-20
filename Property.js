@@ -101,21 +101,3 @@ console.log("b ==>", b);
 /* 
 { value: {}, writable: true, enumerable: false, configurable: false }
 */
-
-// 프로퍼티 정의
-
-const person2 = {};
-
-Object.defineProperties(person, "firstName", {
-    value: "yunwon",
-    writable: true,
-    enumerable: true,
-    configurable: true,
-});
-
-Object.defineProperties(person, "lastName", {
-    value: "Lee",
-});
-
-let descriptor2 = Object.getOwnPropertyDescriptor(person, "firstName");
-console.log("firstName", descriptor);

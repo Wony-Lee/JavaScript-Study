@@ -62,6 +62,7 @@ const add2 = (n = []) => {
     console.log("2558 =>", sum);
 };
 
+// 2845 파티가 끝나고 난 뒤
 const party = (n, m, p = []) => {
     const min = 100;
     const result = [];
