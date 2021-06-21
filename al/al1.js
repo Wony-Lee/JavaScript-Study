@@ -75,6 +75,12 @@ const party = (n, m, p = []) => {
             result[i] = p[i] - result[i];
         }
     }
-    console.log(result);
+    console.log("2845 => ", result);
 };
 party(5, 20, [99, 101, 1000, 0, 97]);
+
+// 2914 저작권
+const copyright = (n, m) => {
+    console.log("2914 =>", n * (m - 1) + 1);
+};
+copyright(38, 24);
