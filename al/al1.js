@@ -84,3 +84,13 @@ const copyright = (n, m) => {
     console.log("2914 =>", n * (m - 1) + 1);
 };
 copyright(38, 24);
+
+// 3003 킹, 퀸, 룩, 비숍, 나이트, 폰
+const chess = (n = []) => {
+    const arr = [1, 1, 2, 2, 2, 8];
+    arr.forEach((item, i) => {
+        console.log("==>", item - n[i]);
+    });
+};
+
+chess([2, 1, 2, 1, 2, 1]);
