@@ -35,3 +35,19 @@ function solution3(s) {
 }
 
 solution3("try hello world");
+
+function solution4(n) {
+    let answer = 0;
+    answer = n;
+    const arr = [];
+    const item = answer.toString();
+    for (let i = 0; i < item.length; i++) {
+        console.log(item[i]);
+        arr.push(item[i]);
+    }
+    answer = parseInt(arr.sort().reverse().join(""));
+
+    console.log(answer);
+    return answer;
+}
+solution4(118372);
