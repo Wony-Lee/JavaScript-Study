@@ -28,7 +28,6 @@ function solution3(s) {
                     answer += item[i].toUpperCase();
                 }
             }
-            console.log(answer);
             return answer;
         })
         .join(" ");
@@ -76,3 +75,25 @@ function solution6(arr) {
     return [-1];
 }
 solution6([4, 3, 2, 1, 1, 2]);
+
+// function solution7(n) {
+//     var answer = 0;
+//     answer += n % 10;
+//     while (n >= 10) {
+//         n = parseInt(n / 10);
+//         answer += n % 10;
+//     }
+//     return answer;
+// }
+
+// 자릿수 더하기
+function solution7(n) {
+    let answer = 0;
+    n.toString()
+        .split("")
+        .forEach((item) => {
+            answer += parseInt(item);
+        });
+    return answer;
+}
+solution7(123);
